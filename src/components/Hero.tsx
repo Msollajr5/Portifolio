@@ -46,7 +46,7 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
   const floating = [
     { text: 'PwC Associate', sub: 'Finance & Systems', pos: 'left-[2%] top-[30%]', depth: 1 },
     { text: `${achievements[1].title}`, sub: achievements[1].org, pos: 'right-[0%] top-[18%]', depth: -1 },
-    { text: 'Python · Java · PHP', sub: 'Technical Core', pos: 'right-[4%] bottom-[24%]', depth: 0.6 },
+    { text: 'PHP · HTML · CSS', sub: 'Primary Stack', pos: 'right-[4%] bottom-[24%]', depth: 0.6 },
   ];
 
   return (

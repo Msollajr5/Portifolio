@@ -365,14 +365,14 @@ export const skillCategories: SkillCategory[] = [
   {
     id: 'languages',
     title: 'Programming & Web',
-    subtitle: 'Full-stack & systems programming',
+    subtitle: 'Primary full-stack & web technologies',
     skills: [
-      { name: 'Python', mono: 'Py', note: 'Primary' },
-      { name: 'Java', mono: 'Jv' },
-      { name: 'PHP', mono: 'Ph' },
-      { name: 'C', mono: 'C' },
+      { name: 'PHP', mono: 'Ph', note: 'Primary' },
+      { name: 'HTML & CSS', mono: 'Ht', note: 'Primary' },
       { name: 'JavaScript', mono: 'Js' },
-      { name: 'HTML & CSS', mono: 'Ht' },
+      { name: 'Python', mono: 'Py' },
+      { name: 'Java', mono: 'Jv' },
+      { name: 'C', mono: 'C' },
     ],
   },
   {
@@ -442,12 +442,12 @@ export const skillCategories: SkillCategory[] = [
  * where the skill appears in the projects, certifications or achievements on the resume.
  */
 export const skillEvidence: Record<string, string[]> = {
-  Python: ['Business IT & Database Management', 'Degree at UDSM', 'Core Technical Skills'],
-  Java: ['Degree at UDSM', 'Ordinary Diploma at ATC', 'Core Technical Skills'],
-  PHP: ['Business IT & Database Management', 'Web Development'],
-  C: ['Diploma at Arusha Technical College', 'Programming Fundamentals'],
-  JavaScript: ['Business IT & Database Management', 'Web Development'],
-  'HTML & CSS': ['Web Development', 'Business IT Portal'],
+  PHP: ['Primary Web Development Language', 'Leula Events & Neilos Enterprise SaaS', 'Dynamic Database Web Applications'],
+  'HTML & CSS': ['Primary Frontend Architecture', 'Responsive UI & Modern Semantic Web', 'Custom Web Applications'],
+  JavaScript: ['Interactive Web Applications', 'Client-side Engineering & Canvas Studio'],
+  Python: ['Business IT & Systems Programming', 'Degree at UDSM', 'Data & Scripting'],
+  Java: ['Degree at UDSM', 'Android Emergency Response App', 'Ordinary Diploma at ATC'],
+  C: ['Diploma at Arusha Technical College', 'Programming Fundamentals & Memory Management'],
   MySQL: ['GCLA IT Support & Systems Environment', 'Business IT & Relational Database Portal'],
   'Data Handling': ['PwC Financial Operations', 'GCLA Database Maintenance', 'Mtibwa Sugar Estates'],
   'Database Queries': ['MySQL Database Management', 'UDSM BBIT Curriculum'],
@@ -563,9 +563,9 @@ export const seasons: Season[] = [
       },
       {
         code: 'S02 E03',
-        title: 'The Full-Stack Spectrum',
-        description: 'Mastery of C, Java, Python, PHP, JavaScript, and MySQL for robust database applications and data handling solutions.',
-        tags: ['Python', 'Java', 'PHP', 'MySQL', 'JavaScript'],
+        title: 'Primary Web & Full-Stack Core',
+        description: 'Primary mastery in PHP, HTML, CSS, and MySQL dynamic web applications, supported by JavaScript, Python, Java, and C.',
+        tags: ['PHP', 'HTML & CSS', 'MySQL', 'JavaScript', 'Python'],
         runtime: 'Core Tech',
         palette: jade,
       },
@@ -616,7 +616,7 @@ export const topPicks: TopPick[] = [
   { label: 'Technical Base', title: 'Ordinary Diploma in IT', detail: 'Arusha Technical College (2020 – 2023)', palette: ocean },
   { label: 'Industrial Experience', title: 'Mtibwa Sugar Estates', detail: 'IT Support & Systems Maintenance (2022)', palette: amber },
   { label: 'Relational Database', title: 'MySQL & Data Handling', detail: 'Relational design, queries, and maintenance', palette: crimson },
-  { label: 'Programming Core', title: 'Python · Java · PHP', detail: 'with C, JavaScript, HTML & CSS', palette: violet },
+  { label: 'Primary Stack', title: 'PHP · HTML · CSS', detail: 'Primary web stack with MySQL, JavaScript, Python & Java', palette: violet },
   { label: 'Bilingual Mastery', title: 'English & Swahili', detail: 'Professional English & Native Swahili', palette: jade },
 ];
 
@@ -632,9 +632,9 @@ export const introSlides: IntroSlide[] = [
   },
   {
     kicker: 'Technical Core',
-    title: 'Systems & Code',
-    lines: ['Python, Java, PHP, C, JavaScript · MySQL', 'Systems Administration · IT Troubleshooting · Networks'],
-    chips: ['Python', 'Java', 'PHP', 'MySQL', 'Systems Admin', 'Troubleshooting'],
+    title: 'Primary Web & Systems Code',
+    lines: ['PHP, HTML & CSS (Primary) · MySQL & JavaScript', 'Python, Java, C · Systems Administration & IT Support'],
+    chips: ['PHP (Primary)', 'HTML & CSS', 'MySQL', 'JavaScript', 'Python', 'Java', 'Systems Admin'],
   },
   {
     kicker: 'Current Arc',

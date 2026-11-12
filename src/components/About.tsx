@@ -6,7 +6,7 @@ export default function About() {
   const facts = [
     { k: 'Now', v: experience[0].role, s: `${experience[0].company} · ${experience[0].period}` },
     { k: 'Education', v: 'Bachelor of Business IT', s: `${education[0].school} (${education[0].period})` },
-    { k: 'Core Tech', v: 'Python, Java, PHP', s: 'with MySQL, C & JavaScript' },
+    { k: 'Primary Stack', v: 'PHP, HTML & CSS', s: 'with MySQL, JavaScript & Python' },
     { k: 'Based in', v: profile.location, s: 'East Africa' },
   ];
 
