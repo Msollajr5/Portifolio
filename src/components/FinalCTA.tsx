@@ -15,6 +15,7 @@ export default function FinalCTA({ onReplay }: { onReplay: () => void }) {
 
   const ctas = [
     { label: "Let's Connect", href: `mailto:${profile.email}?subject=${encodeURIComponent("Let's connect")}`, primary: true, cursor: 'play' },
+    { label: 'LinkedIn', href: profile.links.linkedin, cursor: 'link' },
     { label: 'WhatsApp', href: profile.links.whatsapp, cursor: 'link' },
     { label: 'GitHub', href: profile.links.github, cursor: 'link' },
     { label: 'Instagram', href: profile.links.instagram, cursor: 'link' },

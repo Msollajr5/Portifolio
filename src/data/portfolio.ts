@@ -23,6 +23,7 @@ export const profile = {
   email: 'erickmsolla0@gmail.com',
   phone: '+255 623 700 877 | +255 704 017 917',
   links: {
+    linkedin: 'https://www.linkedin.com/in/erick-msola-4136b6344/',
     github: 'https://github.com/Msollajr5',
     instagram: 'https://www.instagram.com/official_msollajr',
     whatsapp: 'https://wa.link/91cxgk',

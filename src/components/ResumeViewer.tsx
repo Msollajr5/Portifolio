@@ -103,6 +103,8 @@ export function ResumeSheet() {
             {profile.email}
           </a>
           <div className="mt-1.5 flex flex-wrap gap-x-2 gap-y-1 sm:justify-end text-[11px]">
+            <a href={profile.links.linkedin} target="_blank" rel="noreferrer" className="text-mist hover:text-bone">LinkedIn ↗</a>
+            <span className="text-smoke">·</span>
             <a href={profile.links.github} target="_blank" rel="noreferrer" className="text-mist hover:text-bone">GitHub ↗</a>
             <span className="text-smoke">·</span>
             <a href={profile.links.instagram} target="_blank" rel="noreferrer" className="text-mist hover:text-bone">Instagram ↗</a>
